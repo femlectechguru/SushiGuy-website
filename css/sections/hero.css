@@ -1,0 +1,160 @@
+.hero{
+    display: flex;
+    min-height: calc(100vh - 74px);
+    overflow: hidden;
+}
+.hero-image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+}
+.hero-image img{
+    width: 120%;
+    /* height: 100%; */
+    object-fit: contain;
+    padding-right: 3rem;
+    position: relative;
+    bottom: 4rem;
+}
+.hero-image__overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color:  brown;
+    z-index: -1;
+}
+.hero-image h2{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 138px;
+    color: #fff;
+}
+.hero-content{
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero-content-info{
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-content-info h1{
+    font-size: 80px;
+    font-weight: 600;
+    font-family:"Playfair Display", serif; 
+    margin-left: 2rem;
+}
+.hero-content-info p{
+    margin: 32px 0 0 32px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    color:  #121212;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 6rem;
+}
+
+.hero-content__buttons{
+    margin: 41px 0 0 41px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin-right: 9rem;
+}
+.hero-content__order-button{
+    padding: 20px;
+    border-radius: 36px;
+    min-width:212px ;
+    outline: none;
+    border: none;
+    background:  #121212;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+.hero-content__play-button{
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color:  #020202;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    cursor: pointer;
+}
+.hero-content__play-button img{
+    margin-right: 1rem;
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+.hero-content__testimonial{
+    padding: 36px 40px;
+    display: flex;
+ flex-wrap: wrap;
+    gap: 20px;
+    background-color:#fff ;
+}
+.hero-content__testimonial p{
+   /*  margin: 7rem 0 0 -10rem; */
+}
+.hero-content__customer{
+    flex: 1;
+    gap: 10px; 
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hero-content__customer h4{
+    font-size: 62px;
+    font-weight: 400;
+    font-family:"Playfair Display", serif ;
+}
+.hero-content__customer p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Plus Jakarta Sans", sans-serif  ;
+    color:#121212 ;
+    opacity: 0.5;
+}
+.hero-content__review{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    border-left:1px solid rgba(2,2,2,0.1);
+    min-width:200px;
+}
+.hero-content__review img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+.hero-content__review p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: "Plus Jakarta Sans", sans-serif ;
+    color:#121212 ;
+    opacity: 0.5;
+}

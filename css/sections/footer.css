@@ -1,0 +1,60 @@
+.footer{
+    width: 100%;
+    padding: 20px 40px;
+    background: #fff;
+
+    flex-wrap: wrap;
+    gap: 20px;
+
+    overflow: hidden;
+}
+
+.footer__logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+
+    color: #121212;
+    cursor: pointer;
+
+}
+.footer__logo span{
+    color: #b1454a;
+}
+.footer ul{
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.footer__nav li{
+    font-size: 16px;
+    font-weight: 500;
+    font-family:  "Plus Jakarta Sans", sans-serif;
+    text-transform: uppercase;
+    color: #121212;
+    cursor: pointer;
+}
+.footer ul:last-child {
+    gap: 32px;
+  }
+
+.footer__social li{
+    width: 42px;
+    height: 42px;
+
+    background-color: #121212;
+    border-radius: 100%;
+}
+
+.footer__social li img{
+    width: 45%;
+    height: 45%;
+    
+
+    object-fit: contain;
+}
